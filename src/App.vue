@@ -1,26 +1,47 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div
+    id="toplevel-wrapper"
+    class="container-fluid d-flex min-vh-100 flex-column"
+  >
+    <NavigationComponent />
+    <router-view />
+    <FooterComponent class="row mt-auto gx-0" />
+    <!-- fixed-bottom (class) -->
+  </div>
 </template>
+
+<script>
+import NavigationComponent from "@/components/NavigationComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
+
+export default {
+  components: {
+    FooterComponent,
+    NavigationComponent,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: black;
+  background-color: #e05f4f;
+}
+
+#toplevel-wrapper {
+  padding: 0; /* Added */
 }
 
 nav {
   padding: 30px;
+  text-align: center;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
 
     &.router-link-exact-active {
       color: #42b983;
@@ -28,3 +49,4 @@ nav {
   }
 }
 </style>
+
