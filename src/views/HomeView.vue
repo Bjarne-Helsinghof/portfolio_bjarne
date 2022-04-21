@@ -30,15 +30,18 @@ export default {
   background-image: url("../assets/cvbillede1.jpg");
   background-size: cover;
   max-width: 100%;
-  height: auto;
   background-color: #e05f4f;
 }
 .centered {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  left: 10%;
+  top: 1em;
+  height: 100%;
+  min-height: 320px;
   color: white;
   font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 </style>

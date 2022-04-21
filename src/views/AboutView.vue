@@ -78,12 +78,13 @@
       <p>Du er velkommen til at kontakte mig for yderligere information.</p>
     </div>
     <div id="box5" class="col-12 col-sm-6 col-md-12">
-      <h2>Cv kan downloades her</h2>
+      <h2>Cv kan ses her</h2>
       <a
         href="https://docs.google.com/document/d/1g8pyzIr1KNpeVU8hyQM3ylNM5f29DL1FSJp1tS63RcQ/edit"
         target="_blank"
-        >CV DOWNLOAD</a
-      >
+        class="btn btn-secondary"
+        >CV
+      </a>
     </div>
   </div>
 </template>

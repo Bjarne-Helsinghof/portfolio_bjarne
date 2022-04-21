@@ -16,11 +16,23 @@
             src="../assets/cvbillede1.jpg"
             alt=""
             maxwidth="100%"
-            height="650"
+            height="350"
           />
           <div class="centered">
             Bjarne Helsinghof <br />
             Multimedie designer
+            <ul>
+              Design og produktion af attraktivt multimedieindhold i henhold til
+              hjemmesidens specifikationer.
+              <br />
+              Oprettelse af digitale billeder, videoanimationer og
+              tekstanimationer.
+              <br />
+              Oprettelse af original kunst til digital billedbehandling.
+              <br />
+              Oprettelse af animerede sekvenser ved hjælp af
+              computeranimationssoftware.
+            </ul>
           </div>
         </div>
       </div>
