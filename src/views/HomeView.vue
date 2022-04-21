@@ -23,5 +23,22 @@ export default {
 }
 #box7 {
   text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#box8 {
+  background-image: url("../assets/cvbillede1.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-color: #e05f4f;
+}
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Helvetica, sans-serif;
 }
 </style>

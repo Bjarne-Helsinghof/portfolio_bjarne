@@ -30,7 +30,9 @@
         <hr />
         tlf: +4551425869
         <br />
-        email: Bjarne96@outlook.dk
+        <a href="mailto:Bjarne96@outlook.dk?subject = Feedback&body = Message">
+          Bjarne96@outlook.dk
+        </a>
       </div>
     </div>
     <div id="box4" class="col-12 col-sm-6 col-md-12">
@@ -77,7 +79,11 @@
     </div>
     <div id="box5" class="col-12 col-sm-6 col-md-12">
       <h2>Cv kan downloades her</h2>
-      <a href="../assets/pdf/cv.pdf" download="">CV DOWNLOAD</a>
+      <a
+        href="https://docs.google.com/document/d/1g8pyzIr1KNpeVU8hyQM3ylNM5f29DL1FSJp1tS63RcQ/edit"
+        target="_blank"
+        >CV DOWNLOAD</a
+      >
     </div>
   </div>
 </template>

@@ -11,8 +11,20 @@
           alt hvad jeg har lavet i min tid som multimedie designer og relevante
           personlige projekter bliver vist her.
         </p>
-        <div id="box7" class="col-12 col-sm-6 col-md-12"></div>
+        <div id="box8" class="col-12 col-sm-6 col-md-12">
+          <img
+            src="../assets/cvbillede1.jpg"
+            alt=""
+            maxwidth="100%"
+            height="650"
+          />
+          <div class="centered">
+            Bjarne Helsinghof <br />
+            Multimedie designer
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
