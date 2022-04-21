@@ -80,7 +80,7 @@
     <div id="box5" class="col-12 col-sm-6 col-md-12">
       <h2>Cv kan ses her</h2>
       <a
-        href="https://docs.google.com/document/d/1g8pyzIr1KNpeVU8hyQM3ylNM5f29DL1FSJp1tS63RcQ/edit"
+        href="https://drive.google.com/file/d/1zS5fyUpBLgsld4bebBV0Bw1SMFMZiz1c/preview"
         target="_blank"
         class="btn btn-secondary"
         >CV
