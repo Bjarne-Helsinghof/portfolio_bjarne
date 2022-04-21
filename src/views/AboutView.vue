@@ -33,7 +33,7 @@
         email: Bjarne96@outlook.dk
       </div>
     </div>
-    <div id="box4" class="col-12 col-sm-6 col-md-4">
+    <div id="box4" class="col-12 col-sm-6 col-md-12">
       <h2>Om mig</h2>
       <hr />
       <strong>Bjarne Helsinghof</strong>
