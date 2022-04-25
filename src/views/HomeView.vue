@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 #box6 {
   text-align: center;
-  background-color: lightblue;
+  background-color: #6ba292;
 }
 #box7 {
   text-align: center;
@@ -28,9 +28,9 @@ export default {
 
 #box8 {
   background-image: url("../assets/cvbillede1.jpg");
-  background-size: cover;
-  max-width: 100%;
-  background-color: #e05f4f;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .centered {
   position: relative;

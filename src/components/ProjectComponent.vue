@@ -4,7 +4,14 @@
     <div class="row">
       <div :class="{ active: isActive, 'text-color': isActive }">Projekter</div>
 
-      <button @click="showMeDaData()">Vis projekter</button>
+      <button
+        class="btn btn-primary"
+        data-bs-toggle="button"
+        autocomplete="off"
+        @click="showMeDaData()"
+      >
+        Vis projekter
+      </button>
       <div v-if="showData">loading data...</div>
       <div
         v-else
@@ -80,6 +87,53 @@ export default {
         id: 5,
         projectURL: require("../assets/projects_img/beatup.png"),
         projectTitle: "Beat up face",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+      {
+        id: 6,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "Mini me",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+
+      {
+        id: 7,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "video cv",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+
+      {
+        id: 8,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "short movie",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+
+      {
+        id: 9,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "Roll a ball",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+
+      {
+        id: 10,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "foto opgave",
+        projectDescription:
+          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+      },
+
+      {
+        id: 11,
+        projectURL: require("../assets/projects_img/beatup.png"),
+        projectTitle: "Halloween Poster",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
       },

@@ -4,7 +4,7 @@
 
     <div class="row">
       <div id="box1" class="col-12 col-sm-7 col-md-4">
-        <strong>liste af kompetencer jeg har</strong>
+        <h2>liste af kompetencer jeg har</h2>
         <hr />
         <ul>
           <li v-for="listitem in myArray" :key="listitem">
@@ -26,7 +26,7 @@
         </section>
       </div>
       <div id="box3" class="col-12 col-sm-7 col-md-4">
-        <strong>kontakt oplysninger</strong>
+        <h2>kontakt oplysninger</h2>
         <hr />
         tlf: +4551425869
         <br />
@@ -82,7 +82,7 @@
       <a
         href="https://drive.google.com/file/d/1zS5fyUpBLgsld4bebBV0Bw1SMFMZiz1c/preview"
         target="_blank"
-        class="btn btn-secondary"
+        class="btn btn-success"
         >CV
       </a>
     </div>
@@ -132,23 +132,28 @@ export default {
 }
 
 #box1 {
-  background-color: lightblue;
+  background-color: #35ce8d;
+  font-family: helvetica, sans-serif;
 }
 
 #box2 {
-  background-color: lightseagreen;
+  background-color: #35ce8d;
+  font-family: helvetica, sans-serif;
 }
 
 #box3 {
-  background-color: lightpink;
+  background-color: #35ce8d;
+  font-family: helvetica, sans-serif;
 }
 
 #box4 {
-  background-color: cornflowerblue;
+  background-color: #e0d2c3;
+  font-family: helvetica, sans-serif;
 }
 
 #box5 {
-  background-color: cornflowerblue;
+  background-color: #e0d2c3;
+  font-family: helvetica, sans-serif;
 }
 
 .about {

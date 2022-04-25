@@ -24,11 +24,12 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
-  background-color: #e05f4f;
+  background-color: gray;
+  font-size: 14;
 }
 
 #toplevel-wrapper {
@@ -44,8 +45,11 @@ nav {
     color: black;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #cdb4db;
     }
+  }
+  a:hover {
+    color: #a2d2ff;
   }
 }
 </style>

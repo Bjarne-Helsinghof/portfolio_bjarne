@@ -12,12 +12,9 @@
           personlige projekter bliver vist her.
         </p>
         <div id="box8" class="col-12 col-sm-6 col-md-12">
-          <img
-            src="../assets/cvbillede1.jpg"
-            alt=""
-            maxwidth="100%"
-            height="350"
-          />
+          <center>
+            <img src="../assets/cvbillede1.jpg" alt="" width="50%" />
+          </center>
           <div class="centered">
             Bjarne Helsinghof <br />
             Multimedie designer
