@@ -43,14 +43,14 @@ export default function getProjects() {
       projectCategory: "Photo"    },
       {
         projectID: 6,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/projects_img/minime.png"),
         projectTitle: "Mini Me",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
       projectCategory: "Poster"    },
       {
         projectID: 7,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/projects_img/videocv.png"), 
         projectTitle: "Video CV",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
@@ -64,21 +64,21 @@ export default function getProjects() {
       projectCategory: "Video"    },
       {
         projectID: 9,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/projects_img/rollaball.png"),
         projectTitle: "Roll a ball",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
       projectCategory: "Game"    },
       {
         projectID: 10,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/projects_img/photoopgave.jpg"),
         projectTitle: "foto opgave",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
       projectCategory: "Photo"    },
       {
         projectID: 11,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/projects_img/Halloweenposter.png"),
         projectTitle: "Halloween Poster",
         projectDescription:
           "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
