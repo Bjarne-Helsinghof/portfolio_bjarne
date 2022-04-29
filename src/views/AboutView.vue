@@ -132,32 +132,34 @@ export default {
 }
 
 #box1 {
-  background-color: #35ce8d;
-  font-family: helvetica, sans-serif;
+  background-color: #1dd3b0;
+  font-family: georgia, sans-serif;
 }
 
 #box2 {
-  background-color: #35ce8d;
-  font-family: helvetica, sans-serif;
+  background-color: #1dd3b0;
+  font-family: georgia, sans-serif;
 }
 
 #box3 {
-  background-color: #35ce8d;
-  font-family: helvetica, sans-serif;
+  background-color: #1dd3b0;
+  font-family: georgia, sans-serif;
 }
 
 #box4 {
-  background-color: #e0d2c3;
-  font-family: helvetica, sans-serif;
+  background-color: #b4ddf9;
+  font-family: georgia, sans-serif;
 }
 
 #box5 {
-  background-color: #e0d2c3;
-  font-family: helvetica, sans-serif;
+  background-color: #b4ddf9;
+  font-family: georgia, sans-serif;
 }
 
 .about {
   text-align: center;
+  background-color: #b4ddf9;
+  font-family: georgia, sans-serif;
 }
 
 .fade-enter-active,
@@ -168,5 +170,16 @@ export default {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+a:hover {
+  color: #a2d2ff;
+  animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #b4ddf9, 0 0 25px #a30c8f;
+  }
 }
 </style>

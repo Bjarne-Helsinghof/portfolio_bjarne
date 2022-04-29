@@ -19,19 +19,20 @@ export default {
 <style lang="scss">
 #box6 {
   text-align: center;
-  background-color: #6ba292;
+  background-color: #f4a261;
 }
 #box7 {
   text-align: center;
   font-family: Helvetica, sans-serif;
+  background-color: #f4a261;
 }
-
 #box8 {
   background-image: url("../assets/cvbillede1.jpg");
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background-size: cover;
+  height: 150vh;
+  width: 220vh;
 }
+
 .centered {
   position: relative;
   width: 100%;
@@ -43,5 +44,6 @@ export default {
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 </style>

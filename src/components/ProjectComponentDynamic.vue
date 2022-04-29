@@ -19,45 +19,6 @@
         </div>
       </div>
 
-      <div class="row mb-2 d-flex col-12">
-        <p>Category filter:</p>
-        <button
-          type="button"
-          @click="categoryWeb()"
-          class="btn btn-primary col-2"
-        >
-          Web
-        </button>
-        <button
-          type="button"
-          @click="categoryVideo()"
-          class="btn btn-secondary col-2"
-        >
-          Video
-        </button>
-
-        <button
-          type="button"
-          @click="categoryPoster()"
-          class="btn btn-primary col-2"
-        >
-          Poster
-        </button>
-        <button
-          type="button"
-          @click="categoryPhoto()"
-          class="btn btn-success col-2"
-        >
-          Photo
-        </button>
-        <button
-          type="button"
-          @click="categoryNone()"
-          class="btn btn-danger col-2"
-        >
-          Clear
-        </button>
-      </div>
       <!-- Switched out project in projects, with searchedProjects, so it changes based on input from search/category -->
       <div
         v-for="project in searchedProjects"
@@ -81,12 +42,7 @@
               </h5>
             </router-link>
             <p class="card-text">{{ project.projectDescription }}</p>
-            <p>
-              Category:
-              <span :class="project.projectCategory" id="projectCategoryText">{{
-                project.projectCategory
-              }}</span>
-            </p>
+            <p></p>
             <a href="#" class="btn btn-primary"
               >Go somewhere {{ project.projectID }}</a
             >
@@ -114,97 +70,22 @@ export default {
     // search variable :: empty at start, and will only be populated when we either type in characters or click a "category"
     const searchQuery = ref(""); // 3
 
-    // Double whooper: Sorting on both category and input fields.
-    const searchedProjects = computed(() => {
-      // 3+4
-      return projects.value.filter((project) => {
-        if (searchQuery.value == project.projectCategory.toLowerCase()) {
-          // If the input is the same as a productCategory from our "database", it will sort based only on categoies, not inputted charaters
-          return (
-            project.projectCategory
-              .toLowerCase()
-              .indexOf(searchQuery.value.toLowerCase()) != -1
-          );
-        } else {
-          // If the input is NOT the same as a productCategory from our "database", it will sort based only on input fields data
-          return (
-            project.projectTitle
-              .toLowerCase()
-              .indexOf(searchQuery.value.toLowerCase()) != -1
-          );
-        }
-      });
-    });
     // 3
     // Only a standard search without check for category names
-    /* const searchedProjects = computed(() => {
+    const searchedProjects = computed(() => {
       return projects.value.filter((project) => {
         return (
           project.projectTitle
             .toLowerCase()
             .indexOf(searchQuery.value.toLowerCase()) != -1
-          );
-        });
-      });  
- */
-    // Filter on category (must have project category key:value to work)
-    let categoryWeb = () => {
-      // 4
-      searchQuery.value = "Web".toLowerCase();
-    };
-    let categoryVideo = () => {
-      searchQuery.value = "video".toLowerCase();
-    };
-    let categoryNone = () => {
-      searchQuery.value = "";
-    };
-    let categoryPoster = () => {
-      searchQuery.value = "Poster".toLowerCase;
-    };
+        );
+      });
+    });
 
-    let categoryPhoto = () => {
-      searchQuery.value = "Photo".toLowerCase;
-    };
-
-    // 1
-    // Moving data(projects) to a "database" files, that we then import and use. Line 50 + 66
-    /* let projects = ref([
-      {
-        projectID: 1,
-        projectTitle: "Card One",
-        projectDescription: "Lorem ipsum, text is very nice. Much wow",
-        projectURL: "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectCategory: "Video"
-      }, 
-       {
-        projectID: 2,
-        projectTitle: "Card Two",
-        projectDescription: "Lorem ipsum, text is very nice. Much wow2",
-        projectURL: "https://static.posters.cz/image/1300/image/750/fototapeter/waterfall-lake-i78441.jpg"
-      },
-      {
-        projectID: 3,  
-        projectTitle: "Card Two",
-        projectDescription: "Lorem ipsum, text is very nice. Much wow2",
-        projectURL: "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80"
-      },
-      {
-        projectID: 4,
-        projectTitle: "Card Two",
-        projectDescription: "Lorem ipsum, text is very nice. Much wow2",
-        projectURL: "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80"
-      }
-    ]) */
     return {
       searchQuery, // Search                        // 3
       searchedProjects, // Search                  // 3
-      categoryWeb, // Category btn click filter     // 4
-      categoryVideo, // Category btn click filter   // 4
-      categoryNone, // Category btn click filter    // 4
-      categoryPoster,
-      categoryPhoto,
 
-      projects, // Expose our "database" variable, which is an array with objects inside                                // 1
       showData, // expose variable to Vue view
       showMeDaData, // expose variable to Vue view
       isActive, // expose variable to Vue view
@@ -226,24 +107,7 @@ export default {
 </style>
 
 <style lang="scss">
-#projectCategoryText {
-  font-weight: bold;
-  font-size: 14px;
-}
-$categoryVideoText: darkviolet;
-$categoryPhotoText: darkgreen;
-$categoryWebText: darkblue;
-$categoryPosterText: darkred;
-.Video {
-  color: $categoryVideoText;
-}
-.Web {
-  color: $categoryWebText;
-}
-.Photo {
-  color: $categoryPhotoText;
-}
-.Poster {
-  color: $categoryPosterText;
+container-md {
+  font-family: georgia, sans-serif;
 }
 </style>

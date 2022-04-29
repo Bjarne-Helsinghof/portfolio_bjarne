@@ -5,3 +5,9 @@
     </v-col>
   </v-footer>
 </template>
+
+<style lang="scss">
+v-footer {
+  background-color: #f4a261;
+}
+</style>

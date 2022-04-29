@@ -24,11 +24,11 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: helvetica, sans-serif;
+  font-family: georgia, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
-  background-color: gray;
+  background-color: #f4a261;
   font-size: 14;
 }
 
@@ -39,17 +39,13 @@ export default {
 nav {
   padding: 30px;
   text-align: center;
-
+  background-color: #ebebeb;
   a {
-    display: inline-block;
     font-weight: bold;
-    color: black;
-    padding: 20px 50px;
-    border: 3px solid #3c67e3;
-    border-radius: 10px;
+    color: blue;
 
     &.router-link-exact-active {
-      color: #cdb4db;
+      color: #1dd3b0;
     }
   }
   a:hover {

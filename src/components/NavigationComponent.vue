@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/"
       ><img
-        class="mr-3"
+        class="mr-1"
         :src="require('../assets/personligt-logo.png')"
         height="150"
     /></router-link>
@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-.mr-3 {
+.mr-1 {
   position: relative;
   left: -30%;
 }
