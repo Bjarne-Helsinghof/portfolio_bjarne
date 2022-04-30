@@ -22,7 +22,7 @@ export default function getProjects() {
       projectURL: require("../assets/projects_img/telesikring.jpg"),
       projectTitle: "telesikring",
       projectDescription:
-        "Telesikring er en dansk vagtvirksomhed beliggende i Esbjerg. Telesikring er siden starten tilbage i 1967 vokset til landets største danskejede vagtselskab. For at sikre den dialog i den digitale tidsalder, vi står i, er din opgave nu at lave et redesign af Telesikrings hjemmeside.",
+        "Telesikring er en dansk vagtvirksomhed beliggende i Esbjerg. Telesikring er siden starten tilbage i 1967 vokset til landets største danskejede vagtselskab. For at sikre den dialog i den digitale tidsalder, vi står i, er blev det vores opgave at lave et redesign af Telesikrings hjemmeside.",
 
 },
     {
@@ -44,42 +44,42 @@ export default function getProjects() {
         projectURL: require("../assets/projects_img/minime.png"),
         projectTitle: "Mini Me",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "en af de første opgaver vi fik som multimedie designer. vi skulle lave en mini figur af os selv",
   },
       {
         projectID: 7,
         projectURL: require("../assets/projects_img/videocv.png"), 
         projectTitle: "Video CV",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "indenfor 4 uger skulle vi optage, redigere og eksportere et personligt video-cv",
   },
       {
         projectID: 8,
-        projectURL: require("../assets/projects_img/beatup.png"),
+        projectURL: require("../assets/wip.png"),
         projectTitle: "Short Movie",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "producere mellem 8 og 12 minutters ensartet video. Stil, genre, humør, tone, plot osv.var helt op til os. Det endelige resultat skulle have color correction og gradering anvendt.",
    },
       {
         projectID: 9,
         projectURL: require("../assets/projects_img/rollaball.png"),
         projectTitle: "Roll a ball",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "simpelt spil jeg lavede i min fritid hvor man kontroller en hoppe bold, navigere forskellige baner af variender sværhedsgrad",
   },
       {
         projectID: 10,
         projectURL: require("../assets/projects_img/photoopgave.jpg"),
         projectTitle: "foto opgave",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "i denne opgave skulle vi træne vores foto kompetencer. opgaven var individual, men vi måtte arbejde i grupper, hvis vi ønskede det"
   },
       {
         projectID: 11,
         projectURL: require("../assets/projects_img/Halloweenposter.png"),
         projectTitle: "Halloween Poster",
         projectDescription:
-          "redigere et billede af mig selv hvor der tilføjes skader og få det til at matche med hudfarve",
+          "Til denne individuelle obligatoriske opgave. skulle vi designe reklamer til EASV Halloween festen.",
    },
   ])
 

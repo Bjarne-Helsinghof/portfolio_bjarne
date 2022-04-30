@@ -70,8 +70,6 @@ export default {
     // search variable :: empty at start, and will only be populated when we either type in characters or click a "category"
     const searchQuery = ref(""); // 3
 
-    // 3
-    // Only a standard search without check for category names
     const searchedProjects = computed(() => {
       return projects.value.filter((project) => {
         return (

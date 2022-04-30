@@ -48,16 +48,6 @@ nav {
       color: #1dd3b0;
     }
   }
-  a:hover {
-    color: #a2d2ff;
-    animation: pulsate 1s ease-in-out;
-  }
-
-  @keyframes pulsate {
-    0% {
-      box-shadow: 0 0 25px #5ddcff, 0 0 25px #4e00c2;
-    }
-  }
 }
 </style>
 

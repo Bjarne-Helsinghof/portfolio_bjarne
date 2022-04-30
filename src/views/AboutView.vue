@@ -125,12 +125,10 @@ export default {
   background-color: lightblue;
 }
 
-.text-danger {
-  height: 30px;
-  color: orange;
-  font-weight: bold;
+.about {
+  font-family: georgia, sans-serif;
+  font-size: 16px;
 }
-
 #box1 {
   background-color: #1dd3b0;
   font-family: georgia, sans-serif;
